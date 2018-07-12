@@ -1,10 +1,10 @@
 package driver;
 
+import works.nicholas.word.WordFileAccessor;
+
 public class Driver {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		WordFileAccessor.produceHistogram(WordFileAccessor.collectWords());
 	}
-
 }
