@@ -1,7 +1,16 @@
 package works.nicholas.word;
 
+/**
+ * This class is used for representing a word and a counts of its occurrences.
+ * 
+ * @author hoppern
+ *
+ */
 public class WordCount {
+	/* This is used for formating the whitespace,
+	 *  when printing an array of WordCounts*/
 	private static int maxWordLength = 0;
+	
 	private String word;
 	private int count;
 	

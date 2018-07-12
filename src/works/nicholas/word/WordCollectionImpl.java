@@ -2,6 +2,13 @@ package works.nicholas.word;
 
 import java.util.*;
 
+/**
+ * This class is used for adding new words to a collection
+ *  that tracks the occurrences of the words.
+ * 
+ * @author hoppern
+ *
+ */
 public class WordCollectionImpl implements IWordCollection {
 	
 	private Map<String, WordCount> collection;
