@@ -38,6 +38,12 @@ public class WordCount {
 
 	@Override
 	public String toString() {
-		return "WordCount [word=" + word + ", count=" + count + "]";
+		StringBuilder builder = new StringBuilder(word);
+		builder.append('|');
+		for(int i = 0; i < count; i++) {
+			builder.append('=');
+		}
+		builder.append(count);
+		return builder.toString();
 	}
 }

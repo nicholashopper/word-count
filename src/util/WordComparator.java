@@ -10,6 +10,6 @@ public class WordComparator implements Comparator<WordCount> {
 		if(result==0) {
 			return w1.getWord().compareTo(w2.getWord());
 		}
-		return Integer.compare(w1.getCount(), w2.getCount());
+		return Integer.compare(w2.getCount(), w1.getCount());
 	}
 }
