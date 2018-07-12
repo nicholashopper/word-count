@@ -1,4 +1,4 @@
-package util;
+package works.nicholas.word;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class WordCollectionImpl implements IWordCollection {
 
 	private void incrementCounter(String word) {
 		word = word.toLowerCase();
-		collection.get(word).increment();
+		collection.get(word).increment(); 
 	}
 
 	private void initializeCounter(String word) {

@@ -1,19 +1,20 @@
-package util;
+package works.nicholas.word;
 
 public class WordCount {
+	private static int maxWordLength = 0;
 	private String word;
 	private int count;
 	
 	public WordCount(String word, int count) {
 		super();
-		this.word = word;
-		this.count = count;
+		setWord(word);
+		setCount(count);
 	}
 
 	public WordCount(String word) {
 		super();
-		this.word = word;
-		this.count = 1;
+		setWord(word);
+		setCount(1);
 	}
 
 	public String getWord() {
@@ -21,6 +22,9 @@ public class WordCount {
 	}
 
 	public void setWord(String word) {
+		if(word.length()>maxWordLength) {
+			maxWordLength = word.length();
+		}
 		this.word = word;
 	}
 
@@ -38,12 +42,17 @@ public class WordCount {
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder(word);
-		builder.append('|');
+		StringBuilder builder = new StringBuilder();
+		int whiteSpaceLength = maxWordLength-word.length();
+		for(int i = 0; i < whiteSpaceLength; i++) {
+			builder.append(' ');
+		}
+		builder.append(word);
+		builder.append(" | ");
 		for(int i = 0; i < count; i++) {
 			builder.append('=');
 		}
-		builder.append(count);
+		builder.append(" ("+count+")");
 		return builder.toString();
 	}
 }

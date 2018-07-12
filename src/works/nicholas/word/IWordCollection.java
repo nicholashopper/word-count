@@ -1,4 +1,4 @@
-package util;
+package works.nicholas.word;
 
 import java.util.List;
 

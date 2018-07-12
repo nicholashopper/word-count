@@ -1,15 +1,10 @@
-dfsd dsfd dsfsd dsfsdf
-dfsd dsfd dsfsd dsfsdf
-dfsd dsfd dssfsd dsfsdf
-dfsd dsfd dsfsd dsfsdf
-dfsd dssfd dsfsd dsfsdf
-dfsd dsfd dsfsd dsfsdf
-dfsd dssfd dsfsd dsfsdf
-ss
-s
-a
-a
-aa
-aaa
-aa
-a
+Welcome to the H-E-B Developer I Programming Challenge!
+Thank you for your interest in a career in software development at H-E-B. This challenge will be used to
+assess your technical skills. We will be looking for your utilization of design patterns, best practices, and
+the simplicity and quality of your code.
+You will have two (2) days to complete the challenge. When your solution is completed, upload the
+project to GitHub and send a link to sadc@heb.com. If selected to move forward in the interview
+process, you will be expected to demo your application in-person with your own laptop, and you will
+review your entire solution with several H-E-B developers. Please anticipate providing details regarding
+not only your code, but your overall design decisions.
+We sincerely appreciate you taking the time to complete this challenge and wish you the best of luck!
